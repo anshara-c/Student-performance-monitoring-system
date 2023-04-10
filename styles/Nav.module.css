@@ -1,0 +1,72 @@
+/* add navbar style */
+.nav {
+    height: 50px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    /* background-color: rgba(255, 255, 255, 0.134); */
+    /* border: 1px solid rgb(131, 131, 131); */
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+
+}
+
+.nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(219, 219, 219, 0.986);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+
+}
+
+.colorRed {
+    color: rgb(248, 56, 22);
+}
+
+.colorGreen {
+    color: rgb(1, 187, 41);
+}
+
+.rightAlign {
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.active {
+    background-color: rgba(219, 219, 219, 0.986);
+    color: black !important;
+    padding: 0px;
+    margin: 0px;
+    /* border-radius: 5px; */
+    /* transition: all 0.2s ease; */
+}
+
+.titleLogo {
+    /* margin-left: 10px; */
+    /* font-size: 1.5rem; */
+    font-weight: 600;
+    color: rgb(231, 76, 76);
+    /* background-color: #333; */
+    text-decoration: none;
+}
